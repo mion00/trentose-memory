@@ -8,7 +8,8 @@
   
   <script src="data.js"></script>
   <script src="app.js"></script>        
-
+    
+    <link rel="stylesheet" href="animate.css">
   
 </head>
 
@@ -19,23 +20,13 @@
     <ul class="cards">
         <!-- These are just examples, you should load the cards dynamically -->
         
-        <li id="0" class="hidden">
+        <li id="template" class="done" style="display:none">
           <h3>1</h3>         
-        </li> 
-        <li id="1" class="done">
-          <h3>2</h3>
-        </li>    
-        <li id="2" class="done">
-          <h3>3</h3>
-        </li>               
-        <li id="3" class="hidden">
-          <h3>4</h3>
-        </li>                                                                                                                                                                                     
-                                            
+        </li>                              
     </ul> 
     
     <div class="options">
-      <button class="opt-start">Start Game</button>
+      <button class="opt-start" id="start">Start Game</button>
     </div>
 
 </body>
